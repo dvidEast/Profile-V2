@@ -1,0 +1,46 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.calculation-display{
+  color: white;
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container button{
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  font-size: 23px;
+  margin-right: 6px;
+  margin-bottom: 18px;
+}
+
+.left-buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+.left-buttons button{
+  background-color: rgb(51, 51, 51);
+}
+
+.container{
+  display: flex;
+}
+
+.orange-buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+.orange-buttons button{
+  background-color: rgb(254, 160, 10);
+  margin-left: 5px;
+}
